@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <meta charset="utf-8">
+  <title>ID CARD SISWA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>ID CARD SISWA</h1>
+
+<div class="form">
+
+  <div>
+    <label>Nama:</label>
+    <input type="text" id="nama">
+  </div>
+
+  <div>
+    <label>Kelas</label>
+    <input type="text" id="kelas">
+  </div>
+
+  <div>
+    <label>Favorit</label>
+    <input type="text" id="favorit">
+  </div>
+
+  <div>
+    <label>Motto</label>
+    <input type="text" id="motto">
+  </div>
+
+</div>
+  
+  <button onclick="buatIDCard()">buat ID Card</button>
+
+  <div class="id-card">
+    <h2>ID CARD SISWA</h2>
+    <p>Nama: <span id="hasilNama"></span></p>
+    <p>Kelas: <span id="hasilKelas"></span></p>
+    <p>Favorit: <span id="hasilFavorit"></span></p>
+    <p>Motto: <span id="hasilMotto"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
